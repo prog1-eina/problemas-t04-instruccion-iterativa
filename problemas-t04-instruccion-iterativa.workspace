@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="problemas-t04-instruccion-iterativa" Database="" Version="10.0.0">
+  <Project Name="collatz" Path="collatz/collatz.project" Active="No"/>
+  <Project Name="divisores" Path="divisores/divisores.project" Active="No"/>
+  <Project Name="numero-perfecto" Path="numero-perfecto/numero-perfecto.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="collatz" ConfigName="Debug"/>
+      <Project Name="divisores" ConfigName="Debug"/>
+      <Project Name="numero-perfecto" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="collatz" ConfigName="Release"/>
+      <Project Name="divisores" ConfigName="Release"/>
+      <Project Name="numero-perfecto" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
