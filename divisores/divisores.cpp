@@ -5,8 +5,8 @@
  *          un número introducido por el usuario.
  *          4.ª clase de problemas de Programación 1
  */
- #include <iostream>
- using namespace std;
+#include <iostream>
+using namespace std;
 
 /*
  * Programa que solicita al usuario un número positivo y ha escrito en la
