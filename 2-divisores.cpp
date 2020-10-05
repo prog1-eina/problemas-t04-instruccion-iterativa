@@ -1,6 +1,6 @@
 ﻿/*
  * Autores: Javier Martínez y Miguel Ángel Latre
- * Última revisión: 9-10-2019
+ * Última revisión: 5-10-2020
  * Resumen: Programa interactivo que escribe en la pantalla los divisores de
  *          un número introducido por el usuario.
  *          4.ª clase de problemas de Programación 1
@@ -9,17 +9,17 @@
 using namespace std;
 
 /*
- * Programa que solicita al usuario un número positivo y ha escrito en la
- *       pantalla los divisores de dicho número.
+ * Programa que solicita al usuario un número positivo y escribe en la
+ * pantalla los divisores de dicho número.
  */ 
 int main() {
     cout << "Escriba un número entero positivo: ";
-    int n;
+    unsigned int n;
     cin >> n;
     
     cout << "DIVISORES DE " << n << ":" << endl;
     
-    int posibleDivisor = 1;
+    unsigned int posibleDivisor = 1;
     while (posibleDivisor <= n / 2) {
         // Se recorren los posibles divisores de n en [1, n/2]
         if (n % posibleDivisor == 0) {
