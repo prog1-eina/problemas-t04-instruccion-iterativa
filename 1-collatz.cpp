@@ -1,6 +1,6 @@
 ﻿/*
  * Autores: Miguel Ángel Latre
- * Última revisión: 9-10-2019
+ * Última revisión: 5-10-2020
  * Resumen: Programa que escribe en la pantalla las secuencias de Collatz que se
  *          generan cuando se inician en 13 y 6.
  *          4.ª clase de problemas de Programación 1
@@ -9,10 +9,9 @@
 using namespace std;
 
 /*
- * Pre:  n > 0
- * Post: Ha escrito en la pantalla la secuencia de Collatz que comienza en «n».
+ * Escribe en la pantalla la secuencia de Collatz que comienza en «n».
  */
-void escribirSecuenciaCollatz(int n) {
+void escribirSecuenciaCollatz(unsigned int n) {
     cout << n;
     while (n != 1) {
         if (n % 2 == 0) {
@@ -27,8 +26,8 @@ void escribirSecuenciaCollatz(int n) {
 }
 
 /*
- * Programa que escribe en la pantalla las secuencias de Collatz que se generan a
- * partir de 13 y de 6.
+ * Programa que escribe en la pantalla las secuencias de Collatz que se generan 
+ * a partir de 13 y de 6.
  */
 int main() {
     escribirSecuenciaCollatz(13);
