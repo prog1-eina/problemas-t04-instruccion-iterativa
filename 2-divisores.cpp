@@ -19,15 +19,17 @@ int main() {
     
     cout << "DIVISORES DE " << n << ":" << endl;
     
-    unsigned int posibleDivisor = 1;
-    while (posibleDivisor <= n / 2) {
+    // La variable «divisor» va a servir para ir identificando divisores de «n». 
+    unsigned int divisor = 1;
+
+    while (divisor <= n / 2) {
         // Se recorren los posibles divisores de n en [1, n/2]
-        if (n % posibleDivisor == 0) {
-            // Si posibleDivisor realmente divide a n, se escribe en la pantalla
-            cout << posibleDivisor << endl;
+        if (n % divisor == 0) {
+            // Si «divisor» realmente divide a n, se escribe en la pantalla
+            cout << divisor << endl;
         }
-        // Se incrementa el valor de posibleDivisor para la siguiente iteración
-        posibleDivisor++;
+        // Se incrementa el valor de «divisor» para la siguiente iteración
+        divisor++;
     }
     // Se escribe el valor de «n», que es divisor de sí mismo.
     cout << n << endl;
