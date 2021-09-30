@@ -14,13 +14,13 @@ using namespace std;
  */ 
 int main() {
     cout << "Escriba un número entero positivo: ";
-    unsigned int n;
+    unsigned n;
     cin >> n;
     
     cout << "DIVISORES DE " << n << ":" << endl;
     
     // La variable «divisor» va a servir para ir identificando divisores de «n». 
-    unsigned int divisor = 1;
+    unsigned divisor = 1;
 
     while (divisor <= n / 2) {
         // Se recorren los posibles divisores de n en [1, n/2]

@@ -11,7 +11,7 @@ using namespace std;
 /*
  * Escribe en la pantalla la secuencia de Collatz que comienza en «n».
  */
-void escribirSecuenciaCollatz(unsigned int n) {
+void escribirSecuenciaCollatz(unsigned n) {
     cout << n;
     while (n != 1) {
         if (n % 2 == 0) {
