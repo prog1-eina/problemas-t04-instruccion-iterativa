@@ -1,10 +1,10 @@
-﻿/*
+﻿/*******************************************************************************
  * Autores: Javier Martínez y Miguel Ángel Latre
  * Última revisión: 5-10-2020
  * Resumen: Programa interactivo que indica si un número introducido por el
  *          usuario es o no perfecto.
- *          4.ª clase de problemas de Programación 1
- */
+ *          Problemas de Programación 1 sobre composición iterativa (tema 4).
+ ******************************************************************************/
 #include <iostream>
 using namespace std;
 

@@ -1,10 +1,10 @@
-﻿/*
+﻿/*******************************************************************************
  * Autores: Miguel Ángel Latre
  * Última revisión: 5-10-2020
  * Resumen: Programa que escribe en la pantalla las secuencias de Collatz que se
  *          generan cuando se inician en 13 y 6.
- *          4.ª clase de problemas de Programación 1
- */
+ *          Problemas de Programación 1 sobre composición iterativa (tema 4).
+ ******************************************************************************/
 #include <iostream>
 using namespace std;
 
