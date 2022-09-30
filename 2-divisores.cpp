@@ -1,6 +1,6 @@
 ﻿/*******************************************************************************
  * Autores: Javier Martínez y Miguel Ángel Latre
- * Última revisión: 5-10-2020
+ * Última revisión: 30-9-2020
  * Resumen: Programa interactivo que escribe en la pantalla los divisores de
  *          un número introducido por el usuario.
  *          Problemas de Programación 1 sobre composición iterativa (tema 4).
@@ -33,6 +33,4 @@ int main() {
     }
     // Se escribe el valor de «n», que es divisor de sí mismo.
     cout << n << endl;
-    
-    return 0;
 }

@@ -1,17 +1,23 @@
 ﻿/*******************************************************************************
  * Autores: Miguel Ángel Latre
- * Última revisión: 5-10-2020
- * Resumen: Programa que escribe en la pantalla las secuencias de Collatz que se
- *          generan cuando se inician en 13 y 6.
+ * Última revisión: 30-9-2020
+ * Resumen: Programa interactivo que pide al usuario un número natural y escribe
+ *          en la pantalla la secuencia de Collatz generada por dicho número.
  *          Problemas de Programación 1 sobre composición iterativa (tema 4).
  ******************************************************************************/
 #include <iostream>
 using namespace std;
 
 /*
- * Escribe en la pantalla la secuencia de Collatz que comienza en «n».
+ * Programa que pide al usuario un número natural y escribe en la pantalla la
+ * secuencia de Collatz generada por dicho número.
  */
-void escribirSecuenciaCollatz(unsigned n) {
+int main() {
+    cout << "Escriba un número natural: ";
+    unsigned n;
+    cin >> n;
+
+    cout << "La secuencia de Collatz generada por " << n << " es:" << endl;
     cout << n;
     while (n != 1) {
         if (n % 2 == 0) {
@@ -23,14 +29,4 @@ void escribirSecuenciaCollatz(unsigned n) {
         cout << ", " << n;
     }
     cout << endl;
-}
-
-/*
- * Programa que escribe en la pantalla las secuencias de Collatz que se generan 
- * a partir de 13 y de 6.
- */
-int main() {
-    escribirSecuenciaCollatz(13);
-    escribirSecuenciaCollatz(6);
-    return 0;
 }

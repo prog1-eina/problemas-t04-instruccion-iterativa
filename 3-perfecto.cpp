@@ -9,23 +9,11 @@
 using namespace std;
 
 /*
- * Devuelve true si y solo si «n» es un número perfecto.
- */
-bool esPerfecto(unsigned n) {
-    unsigned suma = 0;
-    for (unsigned divisor = 1; divisor <= n/2; divisor++) {
-        if (n % divisor == 0) {
-            suma += divisor;
-        }
-    }
-    return suma == n;
-}
-
-/*
- * Pide reiteradamente al usuario un número entero positivo y devuelve el primer
- * número entero positivo introducido por el usuario.
+ * Programa que solicita al usuario un número natural y le ha informado acerca 
+ * de si dicho número es perfecto o no.
  */ 
-unsigned pedirNumeroNatural() {
+int main() {
+    // Petición del dato
     cout << "Escriba un número natural: ";
     int n;
     cin >> n;
@@ -35,21 +23,20 @@ unsigned pedirNumeroNatural() {
         cin >> n;
     }
     // n > 0
-    return n;
-}
-
-/*
- * Programa que solicita al usuario un número natural y le ha informado acerca 
- * de si dicho número es perfecto o no.
- */ 
-int main() {
-    unsigned n = pedirNumeroNatural();
     
+    // Determinación de si es perfecto
+    unsigned suma = 0;
+    for (unsigned divisor = 1; divisor <= n/2; divisor++) {
+        if (n % divisor == 0) {
+            suma += divisor;
+        }
+    }
+    bool perfecto = suma == n;
+    
+    // Escritura de resultados
     cout << n;
-    if (!esPerfecto(n)) {
+    if (!perfecto) {
         cout << " no";
     }
     cout << " es un número perfecto." << endl;
-    
-    return 0;
 }
