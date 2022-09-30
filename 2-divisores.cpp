@@ -1,6 +1,6 @@
 ﻿/*******************************************************************************
  * Autores: Javier Martínez y Miguel Ángel Latre
- * Última revisión: 30-9-2020
+ * Última revisión: 30-9-2022
  * Resumen: Programa interactivo que escribe en la pantalla los divisores de
  *          un número introducido por el usuario.
  *          Problemas de Programación 1 sobre composición iterativa (tema 4).
