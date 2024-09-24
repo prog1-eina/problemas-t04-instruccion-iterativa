@@ -26,12 +26,12 @@ int main() {
     
     // Determinación de si es perfecto
     unsigned suma = 0;
-    for (unsigned divisor = 1; divisor <= n/2; divisor++) {
+    for (unsigned divisor = 1; divisor <= unsigned(n) / 2; divisor++) {
         if (n % divisor == 0) {
             suma += divisor;
         }
     }
-    bool perfecto = suma == n;
+    bool perfecto = suma == unsigned(n);
     
     // Escritura de resultados
     cout << n;
