@@ -23,7 +23,8 @@ int main() {
     unsigned divisor = 1;
 
     while (divisor <= n / 2) {
-        // Se recorren los posibles divisores de n en [1, n/2]
+        // Se recorren los posibles divisores propios de n en [1, n/2]
+        // (el mayor divisor propio de n es, como mucho, n/2).
         if (n % divisor == 0) {
             // Si «divisor» realmente divide a n, se escribe en la pantalla
             cout << divisor << endl;
