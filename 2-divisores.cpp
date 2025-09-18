@@ -1,10 +1,10 @@
-﻿/*******************************************************************************
+﻿/******************************************************************************
  * Autores: Javier Martínez y Miguel Ángel Latre
  * Última revisión: 30-9-2022
  * Resumen: Programa interactivo que escribe en la pantalla los divisores de
  *          un número introducido por el usuario.
  *          Problemas de Programación 1 sobre composición iterativa (tema 4).
- ******************************************************************************/
+ *****************************************************************************/
 #include <iostream>
 using namespace std;
 
@@ -19,7 +19,7 @@ int main() {
     
     cout << "DIVISORES DE " << n << ":" << endl;
     
-    // La variable «divisor» va a servir para ir identificando divisores de «n». 
+    // La variable «divisor» servirá para ir identificando divisores de «n». 
     unsigned divisor = 1;
 
     while (divisor <= n / 2) {
