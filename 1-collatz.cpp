@@ -1,6 +1,5 @@
 ﻿/******************************************************************************
  * Autores: Miguel Ángel Latre
- * Última revisión: 20-9-2023
  * Resumen: Programa interactivo que pide al usuario un número natural y
  *          escribe en la pantalla la secuencia de Collatz generada por dicho
  *          número.
