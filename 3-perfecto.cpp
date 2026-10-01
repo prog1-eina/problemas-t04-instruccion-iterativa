@@ -30,11 +30,10 @@ int main() {
             suma += divisor;
         }
     }
-    bool perfecto = suma == unsigned(n);
     
     // Escritura de resultados
     cout << n;
-    if (!perfecto) {
+    if (suma != unsigned(n)) {
         cout << " no";
     }
     cout << " es un número perfecto." << endl;
